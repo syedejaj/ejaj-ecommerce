@@ -26,4 +26,79 @@ img {
     height: auto;
 }
 
+.flex-space-around {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
 /* reset and common style ends here  */
+/* navbar starts here  */
+nav {
+    font-family: fantasy;
+    font-size: 1.2rem;
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 100;
+}
+
+.nav-upper {
+    min-height: 10vh;
+    background-color: var(--primary-color);
+    padding: 1rem 0;
+}
+
+.nav-list {
+    transition: var(--transition);
+}
+
+.nav-list:hover {
+    text-decoration: overline;
+    color: black;
+}
+
+.nav-link {
+    transition: var(--transition);
+    color: white;
+}
+
+.nav-link:hover {
+    color: black;
+}
+
+.profile-icon {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    border: white 1px solid;
+    transition: var(--transition);
+    filter: saturate(0);
+}
+
+.profile-icon:hover {
+    filter: saturate(1);
+}
+
+.nav-lower {
+    background-color: var(--secondary-color);
+    min-height: 10vh;
+}
+
+.nav-brand {
+    font-size: 2rem;
+}
+
+@media (max-width:992px) {
+    .flex-space-around {
+        flex-direction: column;
+        gap: 1rem;
+        padding: 1rem 0;
+    }
+}
+
+@media (max-width:768px) {}
+
+@media (max-width:600px) {}
+
+/* navbar ends here  */
