@@ -278,6 +278,24 @@ main {
     display: inline-block;
 }
 
+/* pagination starts here  */
+.pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pagination-btn {
+    border-style: solid;
+    border-width: 1px 1px 1px 0;
+}
+
+.pagination-btn:first-child {
+    border-style: solid;
+    border-width: 1px 1px 1px 1px;
+}
+
+/* pagination ends here  */
 /* main ends here  */
 
 
