@@ -36,7 +36,42 @@
     </nav>
     <!-- navbar ends here -->
     <main>
-        Contact Page
+        <section class="contact-section">
+            <h2 class="section-title text-center">Contact Us</h2>
+            <div class="contact-container flex-center">
+                <form action="" class="form card">
+                    <div class="form-control flex-center">
+                        <label for="name">Name</label>
+                        <input type="text" required autocomplete="name" id="name">
+                    </div>
+                    <div class="form-control flex-center">
+                        <label for="email">Email</label>
+                        <input type="email" required autocomplete="email" id="email">
+                    </div>
+                    <div class="form-control flex-center">
+                        <label for="message">Message</label>
+                        <textarea name="message" id="message"></textarea>
+                    </div>
+                    <div class="form-control flex-center form-btn-field">
+                        <button type="submit" class="btn contact-btn">submit</button>
+                    </div>
+                </form>
+                <div class="contact-address flex-space-around">
+                    <address>
+                        <h4>Address:</h4>
+                        <p>Chadwell Heath</p>
+                        <p>London, United Kingdom</p>
+                        <br>
+                        <span>Cell:</span>
+                        <a href="+447417466363">+447417466363</a>
+                    </address>
+                    <iframe class="contact-map"
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1239.9414098462532!2d0.1317195387901311!3d51.57038166009262!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47d8a45bae0ca557%3A0xc16bc67de51923ed!2sEric%20Rd%2C%20Romford%20RM6%206JJ!5e0!3m2!1sen!2suk!4v1706626781577!5m2!1sen!2suk"
+                        style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </section>
     </main>
     <!-- footer starts here  -->
     <footer class="flex-space-around">

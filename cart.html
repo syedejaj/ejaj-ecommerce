@@ -36,8 +36,85 @@
         </ul>
     </nav>
     <!-- navbar ends here -->
-    <main>
-        Cart Page
+    <main class="cart flex-center">
+        <div class="cart-items">
+            <div class="cart-items-heading card">
+                <h2>Shopping Cart [2 items]</h2>
+                <div class="cart-items-action">
+                    <label for="select">
+                        <input type="checkbox" name="select" id="select">Select all items
+                    </label>
+                    <button class="btn">
+                        <i class="fas fa-trash-alt"></i>
+                    </button>
+                    <button class="btn">Shop More</button>
+                </div>
+            </div>
+            <div class="cart-item flex-space-around card">
+                <input type="checkbox" name="" id="">
+                <img src="images/product2.jpg" alt="" class="cart-item-img">
+                <div class="cart-item-description">
+                    <h3 class="product-name">Brand New MI AirBuds</h3>
+                    <h4 class="product-price">Price: $225.99</h4>
+                    <p class="cart-item-shipping">Free Shipping</p>
+                </div>
+                <div class="cart-item-action">
+                    <button class="btn"><i class="fas fa-trash-alt"></i></button>
+                    <div>
+                        <button class="btn"><i class="fas fa-add"></i></button>
+                        <span>3</span>
+                        <button class="btn"><i class="fas fa-minus"></i></button>
+                    </div>
+                </div>
+            </div>
+            <div class="cart-item flex-space-around card">
+                <input type="checkbox" name="" id="">
+                <img src="images/product3.jpg" alt="" class="cart-item-img">
+                <div class="cart-item-description">
+                    <h3 class="product-name">Brand New Apple Heaphone</h3>
+                    <h4 class="product-price">Price: $399.99</h4>
+                    <p class="cart-item-shipping">Shipping Cost: $3.50</p>
+                </div>
+                <div class="cart-item-action">
+                    <button class="btn"><i class="fas fa-trash-alt"></i></button>
+                    <div>
+                        <button class="btn"><i class="fas fa-add"></i></button>
+                        <span>3</span>
+                        <button class="btn"><i class="fas fa-minus"></i></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="cart-payment">
+            <div class="cart-payment-summary card">
+                <h2>Payment Summary</h2>
+                <div>
+                    <p>Subtotal: </p>
+                    <p>$344.99</p>
+                </div>
+                <div>
+                    <p>Shipping Cost: </p>
+                    <p>$3.50</p>
+                </div>
+                <div>
+                    <p>Total Cost:</p>
+                    <p>$347.49</p>
+                </div>
+                <button class="btn cart-payment-btn">Pay Now</button>
+            </div>
+            <div class="payments-methods card">
+
+                <h2>Payments Methods</h2>
+                <div>
+                    <i class="fa-brands fa-cc-visa fa-3x"></i>
+                    <i class="fa-brands fa-cc-apple-pay fa-3x"></i>
+                    <i class="fa-brands fa-cc-amex fa-3x"></i>
+                    <i class="fa-brands fa-cc-amazon-pay fa-3x"></i>
+                    <i class="fa-brands fa-cc-paypal fa-3x"></i>
+                </div>
+
+            </div>
+        </div>
     </main>
     <!-- footer starts here  -->
     <footer class="flex-space-around">
